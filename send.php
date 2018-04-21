@@ -4,18 +4,18 @@ $email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 $error = "";
-$errorMessage = 'Sorry your message can not be sent.';
+$errorMessage = 'Xin lỗi tin nhắn của bạn không thể gửi đi.';
 
 //Validate first
 if(empty($name)||empty($email)||empty($message)) 
 {
-    echo "Name and email and message are required !";
+    echo "Vui lòng nhập họ tên, email và tin nhắn !";
     header('Location: index.html');
 }
 //validate against any email injection attempts
 if(IsInjected($email))
 {
-    echo "Bad email value!";
+    echo "Vui lòng nhập đúng email !";
     header('Location: index.html');
 }
 
@@ -31,7 +31,7 @@ $msg .= "Browser info : ".$_SERVER["HTTP_USER_AGENT"]."\r\n";
 $msg .= "User come from : ".$_SERVER["SERVER_NAME"]."\r\n";
 $msg .= "Template Name : SPLIT VCARD";
 
-$recipient = "support@mutationmedia.net";// Change the recipient email adress to your adrees  
+$recipient = "huunvx@gmail.com";// Change the recipient email adress to your adrees  
 $sujet =  "Sender information";
 $mailheaders = "From: $email\r\nReply-To: $email\r\nReturn-Path: $email\r\n";
 
@@ -41,7 +41,7 @@ if (!$error){
 		
 		if ($sending) {
 				// If the message is sent we output a string to use it 
-				echo "SENDING"; 
+				echo "Đang gửi"; 
 			} else {
 				// Display Error Message
 				echo $errorMessage; 

@@ -137,20 +137,6 @@
 	position:relative;
 }
 
-.img-profile .name-profile{
-   	left: -22%;
-    position: absolute;
-    top: 23.2%;
-	transform: rotate(-90deg);
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#33373d+0,33373d+100&amp;1+0,0+100 */
-	background: -moz-linear-gradient(left,  rgba(51,55,61,1) 0%, rgba(51,55,61,0) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(51,55,61,1)), color-stop(100%,rgba(51,55,61,0))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  rgba(51,55,61,1) 0%,rgba(51,55,61,0) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  rgba(51,55,61,1) 0%,rgba(51,55,61,0) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  rgba(51,55,61,1) 0%,rgba(51,55,61,0) 100%); /* IE10+ */
-	background: linear-gradient(to left,  rgba(51,55,61,1) 0%,rgba(51,55,61,0) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33373d', endColorstr='#0033373d',GradientType=0 ); /* IE6-9 */
-}
 
 
 .img-profile .name-profile span{
@@ -798,7 +784,7 @@
 
 
 .item a .desc {
-    background: rgba(85, 142, 106, 0.95);
+    background: #0099ff;
     height: 100%;
     position: absolute;
     text-align: center;
