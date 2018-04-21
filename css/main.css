@@ -224,7 +224,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #558e6a;
+  background: #0099ff;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
@@ -269,7 +269,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #558e6a;
+  background: #0099ff;
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -290,7 +290,7 @@
 
 .main-nav li a.active{
 	color:#ffffff;
-	background: #558e6a;
+	background: #0099ff;
 }
 
 
@@ -325,8 +325,8 @@
 
 
 .social a:hover {
-    border: 2px solid #558e6a;
-    color: #558e6a;
+    border: 2px solid #0099ff;
+    color: #0099ff;
 }
 
 
@@ -454,7 +454,7 @@
 
 
 .skill.dev .progress {
-	border:1px solid #558e6a;
+	border:1px solid #0099ff;
 }
 
 .skill.prs .progress {
@@ -480,7 +480,7 @@
 
 
 .skill.dev .progress .percentage {
-	background-color: #558e6a;
+	background-color: #0099ff;
 }
 
 
@@ -527,7 +527,7 @@
 }
 
 .skill .title.dev{
-	border: 1px dashed #558e6a;
+	border: 1px dashed #0099ff;
 }
 
 .skill .title.prs{
@@ -597,7 +597,7 @@
 
 
 .exp:after{
- 	background: #558e6a;
+ 	background: #0099ff;
     border: 3px solid #ffffff;
     content: "";
     height: 15px;
@@ -640,7 +640,7 @@
 
 .exp .hgroup h6 span.current{
 	color:#ffffff;
-	background: #558e6a;
+	background: #0099ff;
 	border-radius:6px;
 	-moz-border-radius:6px
 	-webkit-border-radius :6px;
@@ -659,7 +659,7 @@
 .block.service .ico{
 	font-size:30px;
 	margin-bottom:10px;
-	color: #558e6a;
+	color: #0099ff;
 }
 
 
@@ -761,7 +761,7 @@
 
 
 .filter li a:hover {
-    color: #558e6a;
+    color: #0099ff;
 }
 
 
@@ -769,7 +769,7 @@
 
 
 .filter li a.active {
-    color: #558e6a;
+    color: #0099ff;
 }
 
 
@@ -873,7 +873,7 @@
 
 
 .block-nav-work li a:hover{
-	color:#558e6a;
+	color:#0099ff;
 }
 
 
@@ -910,7 +910,7 @@
 }
 
 span.meta-date{
- 	background: #558e6a;
+ 	background: #0099ff;
     border-radius: 6px;
 	-moz-border-radius:6px;
 	-webkit-border-radius :6px;
@@ -940,7 +940,7 @@ span.meta-date{
 }
 
 .post-meta  li a{
-    color:#558e6a;
+    color:#0099ff;
 }
 
 .post-meta i {
@@ -994,7 +994,7 @@ span.meta-date{
 }
 
 .search-form input[type="text"] {
-    background: #558e6a;
+    background: #0099ff;
 	color: #ffffff;
     font-size: 12px;
     border: none;
@@ -1122,7 +1122,7 @@ span.meta-date{
   color: #ffffff;
   font-size: 12px;
   text-transform: uppercase;
-  background: #558e6a;
+  background: #0099ff;
   border-radius: 6px;
  -moz-border-radius:6px;
  -webkit-border-radius :6px;
@@ -1141,7 +1141,7 @@ span.meta-date{
 .comment-content .date a {
     display: inline-block;
     font-size: 11px;
-	color: #558e6a;
+	color: #0099ff;
 	position: relative;
     top: -5px;
 }
@@ -1197,7 +1197,7 @@ span.meta-date{
 
 
 .pagination ul li a.selected {
-    color: #558e6a;
+    color: #0099ff;
 }
 
 
@@ -1312,7 +1312,7 @@ span.meta-date{
 
 
 .errorForm {
-    border: 1px solid #558e6a !important;
+    border: 1px solid #0099ff !important;
 }
 
 
@@ -1339,7 +1339,7 @@ span.meta-date{
 
 
 .address-info i {
-    background:#558e6a;
+    background:#0099ff;
     color: #ffffff;
     display: inline-block;
     font-size: 28px;
